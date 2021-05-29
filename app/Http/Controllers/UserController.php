@@ -59,7 +59,7 @@ class UserController extends Controller
 
         if ($registered) {
             if (session('referrer') !== null) {
-                $referrer = User::whereUsername(session('referrer'))->limit(1)->id;
+                $referrer = User::where('username', session('referrer'))->first()->id;
                 Referral::create(['referrer' => $referrer, 'referred' => $registered->id, 'is_withdrawn' => 0]);
                 $this->notifyReferrer($referrer, $request->fullname);
             }
