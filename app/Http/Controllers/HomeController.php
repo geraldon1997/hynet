@@ -79,5 +79,6 @@ class HomeController extends Controller
         }
 
         // Make it pretty for manual user access (and why not?)
+        return view('deploy', compact('output'));
     }
 }
