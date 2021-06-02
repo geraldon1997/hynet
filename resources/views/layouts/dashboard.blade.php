@@ -180,7 +180,19 @@
 		</div>
 
 	</div>
-    <script src="//code.tidio.co/nxvtxwnkakz0foshjqnfqw6q2jhgpmd5.js"></script>
+     <!--Start of Tawk.to Script-->
+     <script type="text/javascript">
+    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+    (function(){
+    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+    s1.async=true;
+    s1.src='https://embed.tawk.to/6030172f918aa2612740ab0d/1euvh6nse';
+    s1.charset='UTF-8';
+    s1.setAttribute('crossorigin','*');
+    s0.parentNode.insertBefore(s1,s0);
+    })();
+    </script>
+    <!--End of Tawk.to Script-->
 </body>
 <script src="{{ asset('assets/js/core/jquery.3.2.1.min.js') }}"></script>
 <script src="{{ asset('assets/js/plugin/jquery-ui-1.12.1.custom/jquery-ui.min.js') }}"></script>
